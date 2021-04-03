@@ -1,9 +1,11 @@
-//import './App.css';
+import About from './components/about.js'
+import 'bootstrap/dist/css/bootstrap.min.css';
+import './App.css';
 
 function App() {
   return (
     <div className="App">
-      <h2>Hi</h2>
+      <About/>
     </div>
   );
 }
