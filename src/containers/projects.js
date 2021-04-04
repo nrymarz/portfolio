@@ -3,6 +3,10 @@ import Project from '../components/project.js'
 import vgPic from '../assets/project_pics/vg_backlog_tracker_pic.png'
 import streamPic from '../assets/project_pics/random_stream_finder_pic.png'
 import rpgPic from '../assets/project_pics/dragon_adventure_pic.png'
+import Container from 'react-bootstrap/Container'
+import Carousel from 'react-bootstrap/Carousel'
+import Col from 'react-bootstrap/Col'
+import ScrollAnimation from 'react-animate-on-scroll'
 
 export default class Projects extends Component{
     state={
@@ -32,8 +36,24 @@ export default class Projects extends Component{
     }
     render(){
         return(
-            <>
-            </>
+            <Container fluid id="projects" className="vh-100 text-center text-white d-flex" style={{background:"#101010"}}>
+                <Col xs={10} className='m-auto'>
+                    <ScrollAnimation animateIn="animate__fadeInDown"><h1 className="py-3">Projects</h1> </ScrollAnimation>
+                    <ScrollAnimation animateIn="animate__fadeIn">
+                        <Carousel >
+                            <Carousel.Item >
+                                <Project project={this.state.projects[0]} />
+                            </Carousel.Item>
+                            <Carousel.Item>
+                                <Project project={this.state.projects[1]} />
+                            </Carousel.Item>
+                            <Carousel.Item>
+                                <Project project={this.state.projects[2]} />
+                            </Carousel.Item>
+                        </Carousel>
+                    </ScrollAnimation>
+                </Col>
+            </Container>
         )
     }
 }

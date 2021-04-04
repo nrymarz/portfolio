@@ -1,6 +1,8 @@
 import React, {Component} from 'react'
 import BlogPost from '../components/blogPost.js'
 import Container from 'react-bootstrap/Container'
+import Col from 'react-bootstrap/Col'
+import ScrollAnimation from 'react-animate-on-scroll'
 
 export default class BlogPosts extends Component{
     state={
@@ -37,15 +39,16 @@ export default class BlogPosts extends Component{
     }
 
     renderBlogs(){
-        return this.state.blogs.map(blog => <li><BlogPost blog={blog}/></li>)
+        return this.state.blogs.map( (blog,idx) => <BlogPost key={idx} blog={blog} direction={idx%2===0 ? "Right" : "Left"}/>)
     }
+
     render(){
         return(
-            <Container id="blogposts" className='vh-100 d-flex text-white' style={{background:"#252525"}}>
-                <h1>Blog Posts</h1>
-                <ul>
+            <Container fluid id="blog-posts" className='vh-100 text-center text-white d-flex'>
+                <Col className="m-auto">
+                    <ScrollAnimation animateIn="animate__fadeInDown"><h1>Blog Posts</h1> </ScrollAnimation>
                     {this.renderBlogs()}
-                </ul>
+                </Col>
             </Container>
         )
     }
