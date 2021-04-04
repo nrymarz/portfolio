@@ -2,7 +2,7 @@ import Container from 'react-bootstrap/Container'
 import Col from 'react-bootstrap/Col'
 export default function About(){
     return(
-        <Container className='vh-100 d-flex about' style={{background:"#252525"}} >
+        <Container id="about" className='vh-100 d-flex about' style={{background:"#252525"}} >
             <Col xs={9} className="m-auto text-center text-white">
                 <h1>About Me</h1>
                 <i>
