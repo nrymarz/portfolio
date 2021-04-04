@@ -3,10 +3,10 @@ import Card from 'react-bootstrap/Card'
 export default function Project({project}){
     return(
         <Card bg="dark" variant="dark">
-            <Card.Img src={project.pic} className="mx-auto" alt={project.name} style={{width:"82%", objectFit:'contain'}}/>
+            <Card.Img src={project.pic} className="mx-auto" alt={project.name} style={{height:"50vh",width:"82%", objectFit:'contain'}}/>
             <Card.Body>
                 <Card.Title >{project.name}</Card.Title>
-                <Card.Text>project description</Card.Text>
+                <Card.Text>{project.description}</Card.Text>
                 <Breadcrumb className="w-50 mx-auto">
                     <Breadcrumb.Item href={project.site} target="_blank" className="ml-auto">Live Site</Breadcrumb.Item>
                     <Breadcrumb.Item href={project.demo} target="_blank">Youtube Demo</Breadcrumb.Item>
