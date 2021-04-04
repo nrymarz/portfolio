@@ -8,8 +8,8 @@ import {Link} from 'react-scroll'
 export default function MainNav(){
     return(
         <Navbar bg='dark' variant="dark" fixed='top' className="flex-column">
-            <Nav className="justify-content-center my-2">
-                <Navbar.Brand>Nathan Rymarz</Navbar.Brand>
+            <Nav className="justify-content-center my-auto">
+                <Navbar.Brand className="my-auto">Nathan Rymarz</Navbar.Brand>
                 <Nav.Link href="https://www.linkedin.com/in/nathan-rymarz/" target="_blank"><img src={linkedIn} alt="LinkedIn icon" width='40' height='40'/></Nav.Link>
                 <Nav.Link href="https://github.com/nrymarz" target="_blank"><img src={github} alt="github icon" width='40' height='40'/></Nav.Link>
                 <Nav.Link href="https://dev.to/nrymarz" target="_blank"><img src={dev} alt="dev.to icon" width='40' height='40'/></Nav.Link>
