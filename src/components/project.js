@@ -8,9 +8,9 @@ export default function Project({project}){
                 <Card.Title >{project.name}</Card.Title>
                 <Card.Text>project description</Card.Text>
                 <Breadcrumb className="w-50 mx-auto">
-                    <Breadcrumb.Item href={project.site} target="_blank">Live Site</Breadcrumb.Item>
+                    <Breadcrumb.Item href={project.site} target="_blank" className="ml-auto">Live Site</Breadcrumb.Item>
                     <Breadcrumb.Item href={project.demo} target="_blank">Youtube Demo</Breadcrumb.Item>
-                    <Breadcrumb.Item href={project.github} target="_blank">Github</Breadcrumb.Item>
+                    <Breadcrumb.Item href={project.github} target="_blank" className="mr-auto">Github</Breadcrumb.Item>
                 </Breadcrumb>
             </Card.Body>
         </Card>
