@@ -6,6 +6,7 @@ Body {
 }
 
 .navbar-brand{
+  vertical-align:middle;
   font-size:2vh;
   font-family:"Times New Roman", serif;
 }

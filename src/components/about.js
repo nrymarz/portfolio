@@ -4,7 +4,7 @@ import ScrollAnimation from 'react-animate-on-scroll'
 export default function About(){
     return(
         <Container fluid id="about" className='vh-100 d-flex about'>
-            <Col xs={9} className="m-auto text-center text-white">
+            <Col xs={9} className="m-auto text-center text-white align-middle">
                 <ScrollAnimation animateIn="animate__fadeInDownBig"> <h1>About Me</h1> </ScrollAnimation>
                 <ScrollAnimation animateIn="animate__fadeInUpBig">
                     <i>
