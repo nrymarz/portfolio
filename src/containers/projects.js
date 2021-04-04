@@ -6,26 +6,29 @@ import rpgPic from '../assets/project_pics/dragon_adventure_pic.png'
 
 export default class Projects extends Component{
     state={
-        projects:{
-            dragonAdventure:{
+        projects:[
+            {
+                name: "Dragon Adventure RPG",
                 pic: rpgPic,
                 site: "https://dragon-adventure.herokuapp.com/",
                 demo: "https://www.youtube.com/watch?v=ZhbnOaCcE2E",
                 github: "https://github.com/nrymarz/js-dragon-rpg"
             },
-            vgBacklogTracker:{
+            {
+                name: "Video Game Backlog Tracker",
                 pic: vgPic,
                 site: "https://guarded-temple-25512.herokuapp.com/",
                 demo: "https://www.youtube.com/watch?v=pkllnDsc7iU",
                 github: "https://github.com/nrymarz/vg-backlog-tracker"
             },
-            randomStreamFinder:{
+            {
+                name: "Twitch.tv Random Stream Finder",
                 pic: streamPic,
                 site: "https://randomstreamfinder.herokuapp.com/",
                 demo: "https://www.youtube.com/watch?v=EoeyYE8D6IU",
                 github: "https://github.com/nrymarz/Twitch-Random-Stream-Finder"
             }
-        }
+        ]
     }
     render(){
         return(
