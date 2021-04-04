@@ -8,11 +8,11 @@ import {Link} from 'react-scroll'
 export default function MainNav(){
     return(
         <Navbar bg='dark' variant="dark" fixed='top' className="flex-column">
-            <Nav className="justify-content-center my-auto">
+            <Nav className="justify-content-center">
                 <Navbar.Brand className="my-auto">Nathan Rymarz</Navbar.Brand>
-                <Nav.Link href="https://www.linkedin.com/in/nathan-rymarz/" target="_blank"><img src={linkedIn} alt="LinkedIn icon" width='40' height='40'/></Nav.Link>
-                <Nav.Link href="https://github.com/nrymarz" target="_blank"><img src={github} alt="github icon" width='40' height='40'/></Nav.Link>
-                <Nav.Link href="https://dev.to/nrymarz" target="_blank"><img src={dev} alt="dev.to icon" width='40' height='40'/></Nav.Link>
+                <Nav.Link className="my-auto" href="https://www.linkedin.com/in/nathan-rymarz/" target="_blank"><img src={linkedIn} alt="LinkedIn icon" width='40' height='40'/></Nav.Link>
+                <Nav.Link className="my-auto" href="https://github.com/nrymarz" target="_blank"><img src={github} alt="github icon" width='40' height='40'/></Nav.Link>
+                <Nav.Link className="my-auto" href="https://dev.to/nrymarz" target="_blank"><img src={dev} alt="dev.to icon" width='40' height='40'/></Nav.Link>
             </Nav>
             <Nav>
                 <Nav.Link as={Link} to="about" smooth={true} spy={true} duration={250}>About Me</Nav.Link>
