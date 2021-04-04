@@ -12,6 +12,6 @@ Body {
 
 .container-fluid{
   min-height: 100vh;
-  display:inline-block
+  display:flex
 }
 
