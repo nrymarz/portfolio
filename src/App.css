@@ -1,9 +1,9 @@
 Body {
   background-color: black;
-  padding-top:'70px'
 }
 .about{
-  font-size:1.8vh
+  font-size:1.8vh;
+  padding-top: 80px
 }
 
 .navbar-brand{
