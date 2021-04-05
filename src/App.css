@@ -16,3 +16,10 @@ Body {
   display:flex
 }
 
+h1, h2 {
+  font-size: calc(15px + 2vw) !important;
+}
+h3 {
+  font-size: calc(15px + 1vw) !important;
+}
+
