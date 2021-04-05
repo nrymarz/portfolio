@@ -7,7 +7,7 @@ Body {
 }
 
 .navbar-brand{
-  font-size:2.2vh;
+  font-size:calc(1rem + 1.2vw);
   font-family:"Times New Roman", serif;
 }
 
