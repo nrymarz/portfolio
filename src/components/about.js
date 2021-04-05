@@ -16,8 +16,7 @@ export default function About(){
                         I love programming and have always had an interest in technology since I was young.
                         <br/><br/>
                         Whether it was troubleshooting my internet for the thousandth time or taking apart my Xbox 360 to fix the infamous red ring of death myself, 
-                        I always had an earnest desire to find a way to solve problems with technology. 
-                        Now, I am aiming to apply my skills and passion for problem solving for a company seeking a dedicated, adaptable and reliable software engineer.
+                        I always had an earnest desire to find a way to solve problems with technology.
                     </i>
                 </ScrollAnimation>
                 <ScrollAnimation animateIn="animate__fadeInUpBig">
