@@ -2,12 +2,12 @@ Body {
   background-color: black;
 }
 .about{
-  font-size:2rem;
+  font-size:2em;
   padding-top: 17vh
 }
 
 .navbar-brand{
-  font-size:2.3rem;
+  font-size:2.3em;
   font-family:"Times New Roman", serif;
 }
 
