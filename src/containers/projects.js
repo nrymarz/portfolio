@@ -35,7 +35,7 @@ export default class Projects extends Component{
                 github: "https://github.com/nrymarz/Twitch-Random-Stream-Finder",
                 description: "This is a web-application that uses the Twitch.tv API to find random streams. It allows users to view streams, login and post recommendations for streamers that they find using this app."
             }
-        ]
+        ],
     }
     render(){
         return(
@@ -45,13 +45,13 @@ export default class Projects extends Component{
                     <ScrollAnimation animateIn="animate__fadeIn">
                         <Carousel interval={7000}>
                             <Carousel.Item >
-                                <Project project={this.state.projects[0]} />
+                                <Project project={this.state.projects[0]} height={this.state.height}/>
                             </Carousel.Item>
                             <Carousel.Item>
-                                <Project project={this.state.projects[1]} />
+                                <Project project={this.state.projects[1]} height={this.state.height} />
                             </Carousel.Item>
                             <Carousel.Item>
-                                <Project project={this.state.projects[2]} />
+                                <Project project={this.state.projects[2]} height={this.state.height} />
                             </Carousel.Item>
                         </Carousel>
                     </ScrollAnimation>

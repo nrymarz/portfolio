@@ -16,6 +16,10 @@ Body {
   display:flex
 }
 
+.card{
+  height:calc(40vh + 15vw)
+}
+
 h1, h2 {
   font-size: calc(15px + 2vw) !important;
 }

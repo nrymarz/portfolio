@@ -1,14 +1,13 @@
 import Breadcrumb from 'react-bootstrap/Breadcrumb'
 import Card from 'react-bootstrap/Card'
-export default function Project({project}){
-    let height = window.innerHeight*0.4 + 0.2*window.innerWidth
+export default function Project({project, height}){
     return(
-        <Card className="mx-auto" style={{background:'#303030', height: height}}>
+        <Card className="mx-auto" style={{background:'#303030'}}>
             <Card.Img src={project.pic} className="mx-auto pt-3" alt={project.name} style={{height:"35vh",objectFit:'contain', width:"55vw", maxHeight:"30vw"}}/>
             <Card.Body className="d-inline-flex flex-column">
                 <Card.Title className="my-auto">{project.name}</Card.Title>
                 <Card.Text>{project.description}</Card.Text>
-                <Breadcrumb className="w-50 mx-auto mt-auto">
+                <Breadcrumb className="w-75 mx-auto mt-auto">
                     <Breadcrumb.Item href={project.site} target="_blank" className="ml-auto">Live Site</Breadcrumb.Item>
                     <Breadcrumb.Item href={project.demo} target="_blank">Youtube Demo</Breadcrumb.Item>
                     <Breadcrumb.Item href={project.github} target="_blank" className="mr-auto">Github</Breadcrumb.Item>
