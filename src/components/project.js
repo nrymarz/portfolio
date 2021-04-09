@@ -2,8 +2,8 @@ import Breadcrumb from 'react-bootstrap/Breadcrumb'
 import Card from 'react-bootstrap/Card'
 export default function Project({project}){
     return(
-        <Card bg="dark" variant="dark">
-            <Card.Img src={project.pic} className="mx-auto" alt={project.name} style={{height:"50vh",width:"82%", objectFit:'contain'}}/>
+        <Card style={{background:'#303030'}}>
+            <Card.Img src={project.pic} className="mx-auto pt-2" alt={project.name} style={{height:"50vh",width:"82%", objectFit:'contain'}}/>
             <Card.Body>
                 <Card.Title >{project.name}</Card.Title>
                 <Card.Text>{project.description}</Card.Text>

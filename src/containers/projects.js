@@ -43,7 +43,7 @@ export default class Projects extends Component{
                 <Col xl={10} className='m-auto'>
                     <ScrollAnimation animateIn="animate__fadeInDown"><h1 className="py-3">Projects</h1> </ScrollAnimation>
                     <ScrollAnimation animateIn="animate__fadeIn">
-                        <Carousel >
+                        <Carousel>
                             <Carousel.Item >
                                 <Project project={this.state.projects[0]} />
                             </Carousel.Item>
