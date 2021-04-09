@@ -40,7 +40,7 @@ export default class Projects extends Component{
     render(){
         return(
             <Container fluid id="projects" className="text-center text-white" style={{background:"#101010"}}>
-                <Col xl={10} className='m-auto'>
+                <Col xs={9}className='m-auto'>
                     <ScrollAnimation animateIn="animate__fadeInDown"><h1 className="py-3">Projects</h1> </ScrollAnimation>
                     <ScrollAnimation animateIn="animate__fadeIn">
                         <Carousel>
