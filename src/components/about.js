@@ -16,7 +16,7 @@ export default function About(){
                         I love programming and have always had an interest in technology since I was young.
                         <br/><br/>
                         Whether it was troubleshooting my internet for the thousandth time or taking apart my Xbox 360 to fix the infamous red ring of death myself, 
-                        I always had an earnest desire to find a way to solve problems with technology. I am currently seeking to use my skills
+                        I always had an earnest desire to find a way to solve problems with technology. I am currently looking to apply my skills
                         for a company seeking a dedicated, adaptable and reliable software engineer.
                     </i>
                 </ScrollAnimation>
