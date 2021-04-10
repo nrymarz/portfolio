@@ -17,7 +17,7 @@ Body {
 }
 
 .card{
-  height:calc(100vh - 15vw)
+  height:calc(95vh - 15vw)
 }
 
 h1, h2 {
