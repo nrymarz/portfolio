@@ -3,7 +3,7 @@ import Card from 'react-bootstrap/Card'
 export default function Project({project}){
     return(
         <Card className="mx-auto" style={{background:'#303030'}}>
-            <Card.Img src={project.pic} className="mx-auto pt-3" alt={project.name} style={{height:'35vh', objectFit:'contain', width:"55vw"}}/>
+            <Card.Img src={project.pic} className="mx-auto pt-3" alt={project.name} style={{height:'35vh', objectFit:'contain'}}/>
             <Card.Body className="d-inline-flex flex-column">
                 <Card.Title className="my-auto">{project.name}</Card.Title>
                 <Card.Text>{project.description}</Card.Text>
