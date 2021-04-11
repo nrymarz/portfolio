@@ -1,5 +1,5 @@
 Body {
-  background-color: black;
+  background: black;
 }
 .about{
   font-size: 1.3rem;
@@ -17,7 +17,8 @@ Body {
 }
 
 .card{
-  height:calc(95vh - 20vw)
+  height:calc(95vh - 20vw);
+  background:radial-gradient(rgb(50,50,50),rgb(17,17,17));
 }
 
 h1, h2 {
@@ -28,10 +29,20 @@ h3 {
 }
 
 .blogpost:hover{
-  transform:scale(1.1)
+  transform:scale(1.1);
 }
 
 a:hover{
-  text-decoration: none
+  text-decoration:none
 }
+
+#projects{
+  background-image:linear-gradient(black,rgb(17, 17, 17),black);
+}
+
+#contact{
+  background-image:linear-gradient(black,rgb(32, 32, 32),black);
+}
+
+
 

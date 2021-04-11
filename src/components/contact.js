@@ -6,7 +6,7 @@ import resumeIcon from '../assets/icons/resume_icon.png'
 import ScrollAnimation from 'react-animate-on-scroll'
 export default function Contact(){
     return(
-        <Container fluid id="contact" style={{background:"#303030"}}>
+        <Container fluid id="contact">
             <Col className="m-auto text-center text-white">
                 <ScrollAnimation animateIn="animate__fadeIn">
                     <h1>Contact Information</h1>
