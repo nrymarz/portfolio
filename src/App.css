@@ -24,6 +24,14 @@ h1, h2 {
   font-size: calc(15px + 2vw) !important;
 }
 h3 {
-  font-size: calc(15px + 1vw) !important;
+  font-size: calc(15px + 0.8vw) !important;
+}
+
+.blogpost:hover{
+  transform:scale(1.1)
+}
+
+a:hover{
+  text-decoration: none
 }
 
