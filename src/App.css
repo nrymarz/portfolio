@@ -1,5 +1,6 @@
 Body {
   background: black;
+  font-family: 'Baloo Da 2', san-serif;
 }
 .about{
   font-size: 1.3rem;
@@ -8,7 +9,7 @@ Body {
 
 .navbar-brand{
   font-size:calc(1rem + 1.2vw);
-  font-family:"Times New Roman", serif;
+  font-family:"Contrail One", sans-serif;
 }
 
 .container-fluid{
@@ -22,9 +23,11 @@ Body {
 }
 
 h1, h2 {
+  font-family: 'Contrail One', sans-serif;
   font-size: calc(15px + 2vw) !important;
 }
 h3 {
+  font-family: 'Contrail One', sans-serif;
   font-size: calc(15px + 0.8vw) !important;
 }
 
