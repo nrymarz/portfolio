@@ -4,7 +4,7 @@ import Row from 'react-bootstrap/Row'
 import Col from 'react-bootstrap/Col'
 export default function Project({project, idx}){
     function renderCardImage(){
-        return <Col> <Card.Img src={project.pic} alt={project.name} style={{height:"100%", objectFit:"fill"}}/> </Col>
+        return <Col> <Card.Img src={project.pic} alt={project.name} style={{height:"100%", objectFit:"contain"}}/> </Col>
     }
     return(
         <Card className="my-3">
