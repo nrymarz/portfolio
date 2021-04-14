@@ -4,7 +4,7 @@ Body {
 }
 .about{
   font-size: 1.3rem;
-  padding-top: 20vh - 3vw
+  padding-top: calc(30vh - 15vw)
 }
 
 .navbar-brand{
