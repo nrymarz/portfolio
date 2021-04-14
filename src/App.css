@@ -9,7 +9,9 @@ Body {
 
 .navbar-brand{
   font-size:calc(1rem + 1.2vw);
-  font-family: 'Iceberg', sans-serif;
+  font-family: 'Ubuntu', sans-serif;
+  text-shadow: -4px 4px 4px #000000;
+  letter-spacing: 5px;
 }
 
 .container-fluid{
@@ -25,6 +27,7 @@ Body {
 h1, h2 {
   font-family: 'Source Sans Pro', sans-serif;
   font-size: calc(15px + 2vw) !important;
+  font-weight:700
 }
 h3 {
   font-family: 'Source Sans Pro', sans-serif;
