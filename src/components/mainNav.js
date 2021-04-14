@@ -15,10 +15,10 @@ export default function MainNav(){
                 <Nav.Link className="my-auto" href="https://dev.to/nrymarz" target="_blank"><img src={dev} alt="dev.to icon" width='39' height='39'/></Nav.Link>
             </Nav>
             <Nav>
-                <Nav.Link as={Link} to="about" smooth={true} spy={true} duration={250}>About Me</Nav.Link>
-                <Nav.Link as={Link} to="projects" smooth={true} spy={true} duration={250}>Projects</Nav.Link>
-                <Nav.Link as={Link} to="blog-posts" smooth={true} spy={true} duration={250}>Blog Posts</Nav.Link>
-                <Nav.Link as={Link} to="contact" smooth={true} spy={true} duration={250}>Contact Info</Nav.Link>
+                <Nav.Link as={Link} to="about" smooth={true} spy={true} duration={500}>About Me</Nav.Link>
+                <Nav.Link as={Link} to="projects" smooth={true} spy={true} duration={500}>Projects</Nav.Link>
+                <Nav.Link as={Link} to="blog-posts" smooth={true} spy={true} duration={500}>Blog Posts</Nav.Link>
+                <Nav.Link as={Link} to="contact" smooth={true} spy={true} duration={500}>Contact Info</Nav.Link>
             </Nav>
         </Navbar>
     )

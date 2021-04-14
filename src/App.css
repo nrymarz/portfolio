@@ -9,7 +9,6 @@ Body {
 
 .navbar-brand{
   font-size:calc(1rem + 1.2vw);
-  font-family: 'Ubuntu', sans-serif;
   text-shadow: -4px 4px 4px #000000;
   letter-spacing: 5px;
 }
