@@ -12,11 +12,11 @@ export default function About(){
                         adaptable and quick to pick up new skills while having strong critical thinking skills and the ability to create impactful and effective web applications.
                         <br/><br/>
                         Employers will find that I am highly independent and motivated to create interesting and effective software.
-                        I am always challenged and excited to figure out problems and get a thrill from solving them. 
+                        I am always challenged and excited to figure out problems. 
                         I love programming and have always had an interest in technology since I was young.
                         <br/><br/>
                         Whether it was troubleshooting my internet for the thousandth time or taking apart my Xbox 360 to fix the infamous red ring of death myself, 
-                        I always had an earnest desire to find a way to solve problems with technology. I am currently looking to apply my skills
+                        I always had an earnest desire to find a way to solve problems with technology. Now I am currently looking to apply my skills
                         for a company seeking a dedicated, adaptable and reliable software engineer.
                     </i>
                 </ScrollAnimation>
