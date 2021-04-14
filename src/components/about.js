@@ -20,14 +20,6 @@ export default function About(){
                         for a company seeking a dedicated, adaptable and reliable software engineer.
                     </i>
                 </ScrollAnimation>
-                <ScrollAnimation animateIn="animate__fadeInUpBig">
-                    <br/>
-                    <p>
-                        My Stack
-                        <br/>
-                        Ruby on Rails, JavaScript, React, Redux
-                    </p>
-                </ScrollAnimation>
             </Col>
         </Container>
     )
