@@ -19,7 +19,6 @@ Body {
 }
 
 .card{
-  height:calc(95vh - 20vw);
   background:radial-gradient(rgb(50,50,50),rgb(17,17,17));
 }
 
