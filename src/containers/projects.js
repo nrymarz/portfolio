@@ -43,7 +43,7 @@ export default class Projects extends Component{
     render(){
         return(
             <Container fluid id="projects" className="text-white">
-                <Col className="m-auto">
+                <Col xl={10} className="m-auto">
                     <ScrollAnimation animateIn="animate__fadeInDown"><h1 className="text-center">Projects</h1> </ScrollAnimation>
                     <hr/>
                     <ScrollAnimation animateIn="animate__fadeIn">
