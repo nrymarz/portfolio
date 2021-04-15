@@ -1,30 +1,24 @@
 import Breadcrumb from 'react-bootstrap/Breadcrumb'
-import Card from 'react-bootstrap/Card'
 import Row from 'react-bootstrap/Row'
 import Col from 'react-bootstrap/Col'
-export default function Project({project, idx}){
-    function renderCardImage(){
-        return <Col> <Card.Img src={project.pic} alt={project.name} style={{height:"100%", objectFit:"contain"}}/> </Col>
-    }
+
+export default function Project({project}){
     return(
-        <Card className="my-3">
-            <Row noGutters>
-                {idx%2===0 ? renderCardImage() : null}
-                <Col className="d-flex">
-                    <Card.Body className="d-inline-flex flex-column">
-                        <Card.Title className="my-auto">{project.name}</Card.Title>
-                        <br/>
-                        <Card.Text>{project.description}</Card.Text>
-                        <Card.Text>{project.technologies.join(', ')}</Card.Text>
-                        <Breadcrumb className="w-75 mx-auto mt-auto">
-                            <Breadcrumb.Item href={project.site} target="_blank" className="ml-auto">Live Site</Breadcrumb.Item>
-                            <Breadcrumb.Item href={project.demo} target="_blank">Youtube Demo</Breadcrumb.Item>
-                            <Breadcrumb.Item href={project.github} target="_blank" className="mr-auto">Github</Breadcrumb.Item>
-                        </Breadcrumb>
-                    </Card.Body>
-                </Col>
-                {idx%2===1 ? renderCardImage() : null}
-            </Row>
-        </Card>
+        <Row>
+            <Col className='d-flex'> <img src={project.pic} alt={project.name} className="mx-auto" style={{width:"100%", objectFit:"contain"}}/> </Col>
+            <Col className="d-flex">
+                <div className="d-flex flex-column">
+                    <h3>{project.name}</h3>
+                    <br/>
+                    <p className="my-auto">{project.description}</p>
+                    <p>{project.technologies.join(', ')}</p>
+                    <Breadcrumb className=" mt-auto">
+                        <Breadcrumb.Item href={project.site} target="_blank" className="ml-auto">Live Site</Breadcrumb.Item>
+                        <Breadcrumb.Item href={project.demo} target="_blank">Youtube Demo</Breadcrumb.Item>
+                        <Breadcrumb.Item href={project.github} target="_blank" className="mr-auto">Github</Breadcrumb.Item>
+                    </Breadcrumb>
+                </div>
+            </Col>
+        </Row>
     )
 }
