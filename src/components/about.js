@@ -5,8 +5,8 @@ export default function About(){
     return(
         <Container fluid id="about" className='about'>
             <Col xs={9} className="m-auto text-center text-white">
-                <ScrollAnimation animateIn="animate__fadeInDownBig"> <h1>About Me</h1> </ScrollAnimation>
-                <ScrollAnimation animateIn="animate__fadeInUpBig">
+                <ScrollAnimation animateIn="animate__fadeInDown"> <h1>About Me</h1> </ScrollAnimation>
+                <ScrollAnimation animateIn="animate__fadeIn">
                     <i>
                         I am a dedicated and passionate programmer that excels at problem solving and creating solutions. I take pride in being
                         adaptable and quick to pick up new skills while having strong critical thinking skills and the ability to create impactful and effective web applications.

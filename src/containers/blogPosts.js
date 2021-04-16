@@ -39,7 +39,7 @@ export default class BlogPosts extends Component{
     }
 
     renderBlogs(){
-        return this.state.blogs.map( (blog,idx) => <BlogPost key={idx} blog={blog} direction={idx%2===0 ? "Right" : "Left"}/>)
+        return this.state.blogs.map( (blog,idx) => <BlogPost key={idx} blog={blog}/>)
     }
 
     render(){
