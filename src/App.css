@@ -22,7 +22,14 @@ Body {
   object-fit: contain;
   width: 100%;
   min-width: 300px;
+  max-height: 600px;
 }
+
+.project-about{
+  border: solid rgb(255, 255, 255);
+  padding: 20px;
+}
+
 h1, h2 {
   font-family: 'Source Sans Pro', sans-serif;
   font-size: calc(15px + 2vw) !important;
