@@ -5,8 +5,7 @@ import Col from 'react-bootstrap/Col'
 export default function Project({project}){
     return(
         <Row>
-            <Col className='d-flex'> <img src={project.pic} alt={project.name} className="mx-auto" style={{width:"100%", objectFit:"contain"}}/> </Col>
-            <Col className="d-flex project-about">
+            <Col xs={12} xl={6} className="d-flex project-about">
                 <div className="d-flex flex-column text-center mx-auto w-100">
                     <br/>
                     <h3 className="my-auto">{project.name}</h3>
@@ -20,6 +19,7 @@ export default function Project({project}){
                     </Breadcrumb>
                 </div>
             </Col>
+            <Col className='d-flex'> <img src={project.pic} alt={project.name} className="mx-auto project-pic"/> </Col>
         </Row>
     )
 }

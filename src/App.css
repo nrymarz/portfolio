@@ -8,7 +8,7 @@ Body {
 }
 
 .navbar-brand{
-  font-size:calc(1rem + 1.2vw);
+  font-size:calc(.7rem + 1.5vw);
   text-shadow: -4px 4px 4px #000000;
   letter-spacing: 5px;
 }
@@ -18,10 +18,11 @@ Body {
   display:flex
 }
 
-.project-about{
-  background:radial-gradient(rgb(50,50,50),rgb(17,17,17));
+.project-pic{
+  object-fit: contain;
+  width: 100%;
+  min-width: 300px;
 }
-
 h1, h2 {
   font-family: 'Source Sans Pro', sans-serif;
   font-size: calc(15px + 2vw) !important;
@@ -41,6 +42,7 @@ a:hover{
 }
 
 #projects{
+  margin-top: 10vw;
   background-image:linear-gradient(black,rgb(17, 17, 17),black);
 }
 
