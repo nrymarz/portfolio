@@ -1,9 +1,10 @@
 Body {
   background: black;
   font-family: 'Ubuntu', sans-serif;
+  font-size:calc(12px + .8vw);
 }
 .about{
-  font-size: 1.3rem;
+  position:relative;
   padding-top: calc(30vh - 15vw)
 }
 
@@ -15,7 +16,7 @@ Body {
 
 .container-fluid{
   min-height: 100vh;
-  display:flex
+  display: flex;
 }
 
 .project-pic{
@@ -55,6 +56,10 @@ a:hover{
 
 #contact{
   background-image:linear-gradient(black,rgb(32, 32, 32),black);
+}
+
+.nav-icon{
+  height:4vh;
 }
 
 
