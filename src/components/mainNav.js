@@ -7,8 +7,7 @@ import {Link} from 'react-scroll'
 
 export default function MainNav(){
     return(
-        <div className="d-block">
-        <Navbar bg='dark' variant="dark"  fixed="top" className="flex-column">
+        <Navbar bg='dark' variant="dark" className="flex-column">
             <Nav className="justify-content-center">
                 <Navbar.Brand className="my-auto">Nathan Rymarz</Navbar.Brand>
                 <Nav.Link className="my-auto" href="https://www.linkedin.com/in/nathan-rymarz/" target="_blank"><img src={linkedIn} alt="LinkedIn icon" className='nav-icon' /></Nav.Link>
@@ -22,6 +21,5 @@ export default function MainNav(){
                 <Nav.Link as={Link} to="contact" smooth={true} spy={true} duration={500}>Contact Info</Nav.Link>
             </Nav>
         </Navbar>
-        </div>
     )
 }

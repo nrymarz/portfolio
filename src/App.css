@@ -3,10 +3,7 @@ Body {
   font-family: 'Ubuntu', sans-serif;
   font-size:calc(12px + .8vw);
 }
-.about{
-  position:relative;
-  padding-top: calc(30vh - 15vw)
-}
+
 
 .navbar-brand{
   font-size:calc(.7rem + 1.5vw);

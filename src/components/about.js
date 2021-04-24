@@ -3,7 +3,7 @@ import Col from 'react-bootstrap/Col'
 import ScrollAnimation from 'react-animate-on-scroll'
 export default function About(){
     return(
-        <Container fluid id="about" className='about'>
+        <Container fluid id="about">
             <Col xs={12} md={9} className="m-auto text-center text-white">
                 <ScrollAnimation animateIn="animate__fadeInDown"> <h1>About Me</h1> </ScrollAnimation>
                 <ScrollAnimation animateIn="animate__fadeIn">
