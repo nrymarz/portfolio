@@ -4,7 +4,7 @@ Body {
 }
 
 .navbar-brand{
-  font-size:calc(.7rem + 1.5vw);
+  font-size:calc(.9rem + .5vw + .5vh);
   text-shadow: -4px 4px 4px #000000;
   letter-spacing: 5px;
 }
@@ -57,6 +57,6 @@ a:hover{
 }
 
 .nav-icon{
-  height:4vh;
+  height:calc(20px + .7vw + .7vh);
 }
 
