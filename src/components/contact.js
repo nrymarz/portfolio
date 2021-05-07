@@ -11,7 +11,7 @@ export default function Contact(){
                     <h1>Contact Information</h1>
                     <h3><img src={gmail} alt="gmail icon" width="50" height="50"/> nrymarz@gmail.com</h3>
                     <h3> <img src={linkedIn} alt="LinkedIn icon" width="50" height="50"/><a href="https://www.linkedIn.com/in/nathan-rymarz" target="_blank" rel="noreferrer"> LinkedIn Profile</a> </h3>
-                    <h3><img src={resumeIcon} alt="resume icon" width="50" height="50"/><a href="./NathanRymarz.pdf" target="_blank" rel="noreferrer"> Resume PDF</a></h3>
+                    <h3><img src={resumeIcon} alt="resume icon" width="50" height="50"/><a href="./resume.pdf" target="_blank" rel="noreferrer"> Resume PDF</a></h3>
                 </ScrollAnimation>
             </div>
         </Container>  
