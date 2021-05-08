@@ -27,6 +27,7 @@ Body {
 .project-about{
   border: solid rgb(255, 255, 255);
   padding: 20px;
+  background:black;
 }
 
 h1, h2 {
