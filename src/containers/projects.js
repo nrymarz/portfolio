@@ -17,7 +17,7 @@ export default class Projects extends Component{
                 demo: "https://www.youtube.com/watch?v=pkllnDsc7iU",
                 github: "https://github.com/nrymarz/vg-backlog-tracker",
                 description: "This is a web-app that allows users to keep track of games they want to play. It takes inspiration from Rawg.io and uses their API for finding information about games. Users can search for games and add them to their backlog. In their backlog they can categorize games as not played, started or completed.",
-                technologies: ["React","Redux","Ruby On Rails","Thunk", "JWT"]
+                technologies: ["React","Redux","Thunk", "Ruby On Rails", "Bootstrap", "JWT"]
             },
             {
                 name: "Twitch.tv Random Stream Finder",
@@ -26,7 +26,7 @@ export default class Projects extends Component{
                 demo: "https://www.youtube.com/watch?v=EoeyYE8D6IU",
                 github: "https://github.com/nrymarz/Twitch-Random-Stream-Finder",
                 description: "This is a web-application that uses the Twitch.tv API to find random streams. It allows users to view streams, login and post recommendations for streamers that they find using this app.",
-                technologies: ["Ruby On Rails", "Oauth"]
+                technologies: ["Ruby On Rails", "Oauth", "Bootstrap", "JavaScript"]
             },
             {
                 name: "Dragon Adventure RPG",
