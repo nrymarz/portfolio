@@ -20,6 +20,15 @@ export default class Projects extends Component{
                 technologies: ["React","Redux","Ruby On Rails","Thunk", "JWT"]
             },
             {
+                name: "Twitch.tv Random Stream Finder",
+                pic: streamPic,
+                site: "https://randomstreamfinder.herokuapp.com/",
+                demo: "https://www.youtube.com/watch?v=EoeyYE8D6IU",
+                github: "https://github.com/nrymarz/Twitch-Random-Stream-Finder",
+                description: "This is a web-application that uses the Twitch.tv API to find random streams. It allows users to view streams, login and post recommendations for streamers that they find using this app.",
+                technologies: ["Ruby On Rails", "Oauth"]
+            },
+            {
                 name: "Dragon Adventure RPG",
                 pic: rpgPic,
                 site: "https://dragon-adventure.herokuapp.com/",
@@ -28,15 +37,6 @@ export default class Projects extends Component{
                 description: "This is a simple turn-based role-playing game made using only javascript and HTML5's Canvas.",
                 technologies: ["JavaScript", "HTML5 Canvas"]
 
-            },
-            {
-                name: "Twitch.tv Random Stream Finder",
-                pic: streamPic,
-                site: "https://randomstreamfinder.herokuapp.com/",
-                demo: "https://www.youtube.com/watch?v=EoeyYE8D6IU",
-                github: "https://github.com/nrymarz/Twitch-Random-Stream-Finder",
-                description: "This is a web-application that uses the Twitch.tv API to find random streams. It allows users to view streams, login and post recommendations for streamers that they find using this app.",
-                technologies: ["Ruby On Rails", "Oauth"]
             }
         ],
     }
@@ -45,6 +45,7 @@ export default class Projects extends Component{
             <Container fluid id="projects" className="text-white">
                 <Col className="m-auto">
                     <ScrollAnimation animateIn="animate__fadeInDown"><h1 className="text-center">Projects</h1> </ScrollAnimation>
+                    <hr></hr>
                     <ScrollAnimation animateIn="animate__fadeIn">
                         {this.renderProjects()}
                     </ScrollAnimation>
