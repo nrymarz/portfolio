@@ -49,7 +49,8 @@ Body {
 }
 
 #projects{
-  background-image:url('assets/backgrounds/coffe_bean_background.jpg');
+  padding-top:100px;
+  background-image:url('assets/backgrounds/coffee_bean_background_2.jpg');
   background-size:contain;
 }
 
