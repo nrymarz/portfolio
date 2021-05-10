@@ -1,5 +1,7 @@
 Body {
-  background: black;
+  background-image:url('assets/backgrounds/wood_background.jpg');
+  background-size:contain;
+  background-repeat:repeat-y;
   font-family: 'Ubuntu', sans-serif;
 }
 
@@ -21,13 +23,23 @@ Body {
   max-height: 600px;
 }
 
+.navbar{
+  background: rgba(0, 0, 0, 0.445);
+}
+
 #about{
   background-image:url('assets/backgrounds/wood_background.jpg');
   background-size:contain;
-  background-repeat:no-repeat;
+  background-repeat:repeat-y;
 }
 #about i{
   font-size:calc(12px + .8vw);
+}
+
+.description-container{
+  background: rgba(0, 0, 0, 0.774);
+  padding-bottom:10px;
+  padding-top: 10px;
 }
 
 .project-about{
