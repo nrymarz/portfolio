@@ -24,7 +24,7 @@ Body {
 }
 
 .navbar{
-  background: rgba(0, 0, 0, 0.445);
+  background: rgba(0, 0, 0, 0.55);
 }
 
 #about{
@@ -36,7 +36,7 @@ Body {
   font-size:calc(12px + .8vw);
 }
 
-.description-container{
+.text-container{
   background: rgba(0, 0, 0, 0.774);
   padding-bottom:10px;
   padding-top: 10px;
@@ -46,6 +46,11 @@ Body {
   border: solid rgb(255, 255, 255);
   padding: 20px;
   background:black;
+}
+
+#projects{
+  background-image:url('assets/backgrounds/coffe_bean_background.jpg');
+  background-size:contain;
 }
 
 h1, h2 {
