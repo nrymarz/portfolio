@@ -27,12 +27,6 @@ Body {
 .navbar{
   background: rgba(0, 0, 0, 0.55);
 }
-
-#about{
-  background-image:url('assets/backgrounds/wood_background.jpg');
-  background-size:contain;
-  background-repeat:repeat-y;
-}
 #about i{
   font-size:calc(12px + .8vw);
 }
