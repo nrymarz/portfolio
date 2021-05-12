@@ -23,7 +23,7 @@ Body {
 }
 
 .navbar{
-  background: rgba(0, 0, 0, 0.85);
+  background: rgba(0, 0, 0, 0.5);
 }
 #about i{
   font-size:calc(12px + .8vw);
