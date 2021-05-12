@@ -45,7 +45,7 @@ export default class BlogPosts extends Component{
     render(){
         return(
             <Container fluid id="blog-posts" className='text-center text-white'>
-                <div className="m-auto d-inline-block text-container">
+                <div className="m-auto d-inline-block">
                     <ScrollAnimation animateIn="animate__fadeInDown"><h1>Blog Posts</h1> </ScrollAnimation>
                     {this.renderBlogs()}
                 </div>
