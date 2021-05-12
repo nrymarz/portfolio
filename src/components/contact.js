@@ -6,7 +6,7 @@ import ScrollAnimation from 'react-animate-on-scroll'
 export default function Contact(){
     return(
         <Container fluid id="contact">
-            <div className="m-auto d-inline-block text-white">
+            <div className="m-auto d-inline-block text-white text-container">
                 <ScrollAnimation animateIn="animate__fadeIn">
                     <h1>Contact Information</h1>
                     <h3><img src={gmail} alt="gmail icon" width="50" height="50"/> nrymarz@gmail.com</h3>

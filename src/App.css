@@ -1,8 +1,6 @@
 Body {
-  background-image:url('assets/backgrounds/wood_background.jpg');
-  background-size:100%;
-  background-repeat:no-repeat;
-  background-repeat:repeat-y;
+  background-image:url('assets/backgrounds/stressed_linen_@2X.png');
+  background-repeat:repeat;
   font-family: 'Ubuntu', sans-serif;
 }
 
@@ -25,36 +23,16 @@ Body {
 }
 
 .navbar{
-  background: rgba(0, 0, 0, 0.55);
+  background: rgba(0, 0, 0, 0.85);
 }
 #about i{
   font-size:calc(12px + .8vw);
-}
-
-.text-container{
-  background: rgba(0, 0, 0, 0.774);
-  padding:15px;
 }
 
 .project-about{
   border: solid rgb(255, 255, 255);
   padding: 20px;
   background:black;
-}
-
-#projects{
-  background-image:url('assets/backgrounds/brick.jpg');
-  background-size:contain;
-  padding-top:5vh;
-}
-
-#blog-posts{
-  background-image:url('assets/backgrounds/wood_background_2.jpg');
-  background-size:100% 100%;
-}
-
-#contact{
-  background:linear-gradient(black,rgb(26, 26, 26),black)
 }
 
 h1, h2 {
