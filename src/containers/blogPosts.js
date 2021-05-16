@@ -1,7 +1,6 @@
 import React, {Component} from 'react'
 import BlogPost from '../components/blogPost.js'
 import Container from 'react-bootstrap/Container'
-import Col from 'react-bootstrap/Col'
 import ScrollAnimation from 'react-animate-on-scroll'
 
 export default class BlogPosts extends Component{
@@ -39,7 +38,7 @@ export default class BlogPosts extends Component{
     }
 
     renderBlogs(){
-        return this.state.blogs.map( (blog,idx) => <BlogPost key={idx} blog={blog}/>)
+        return this.state.blogs.map( (blog) => <BlogPost key={blog.title} blog={blog}/>)
     }
 
     render(){

@@ -4,7 +4,7 @@ import Col from 'react-bootstrap/Col'
 
 export default function Project({project}){
     return(
-        <Row>
+        <Row className="my-5">
             <Col xs={12} xl={6} className="d-flex">
                 <Col xs={12} xl={10} className="d-inline-flex flex-column text-center mx-auto project-about">
                     <h3 className="my-auto">{project.name}</h3>

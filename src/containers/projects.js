@@ -45,7 +45,6 @@ export default class Projects extends Component{
             <Container fluid id="projects" className="text-white">
                 <Col className="m-auto">
                     <ScrollAnimation animateIn="animate__fadeInDown"><h1 className="text-center">Projects</h1> </ScrollAnimation>
-                    <hr></hr>
                     <ScrollAnimation animateIn="animate__fadeIn">
                         {this.renderProjects()}
                     </ScrollAnimation>
@@ -55,6 +54,6 @@ export default class Projects extends Component{
     }
 
     renderProjects(){
-        return this.state.projects.map( (proj,idx) => <> <Project project={proj} key={proj.name} idx={idx}/> <br/><br/><br/> </>)
+        return this.state.projects.map( (proj) => <Project project={proj} key={proj.name}/>)
     }
 }
