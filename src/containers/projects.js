@@ -36,7 +36,6 @@ export default class Projects extends Component{
                 github: "https://github.com/nrymarz/js-dragon-rpg",
                 description: "This is a simple turn-based role-playing game made using only javascript and HTML5's Canvas.",
                 technologies: ["JavaScript", "HTML5 Canvas"]
-
             }
         ],
     }
@@ -44,7 +43,7 @@ export default class Projects extends Component{
         return(
             <Container fluid id="projects" className="text-white">
                 <Col className="m-auto">
-                    <ScrollAnimation animateIn="animate__fadeInDown"><h1 className="text-center">Projects</h1> </ScrollAnimation>
+                    <ScrollAnimation animateIn="animate__fadeInDown"> <h1 className="text-center">Projects</h1> </ScrollAnimation>
                     <ScrollAnimation animateIn="animate__fadeIn">
                         {this.renderProjects()}
                     </ScrollAnimation>
